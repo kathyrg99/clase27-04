@@ -1,0 +1,123 @@
+
+body {
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{ list-style: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid white;
+
+}
+li{
+    display: inline;
+    margin: 10px 40px;
+    color: white;
+
+}
+
+.home:hover{
+    transform: scale(1.2);
+    transition: all 0.8s;
+    
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: deeppink;
+}
+
+main{
+    display: flex;
+}
+
+
+
+#col-izq{ 
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    width: 50%;
+    height: 400px;
+    background-color: deeppink;
+    border: 4px solid white;
+}
+
+#col-der{ 
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    width: 50%;
+    height: 400px;
+    background-color: lightsalmon;
+    border: 4px solid white;
+
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+.boton-container{
+    display:flex;
+    justify-content: center;
+}
+
+.boton{
+    background: #f80000;
+    border-bottom: 5px solid #740d06;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px rgb(82, 6, 6);
+    color: #fff;
+    cursor: pointer;
+    display: flex;  
+    align-items: center;
+    font-family: 'Raleway', Arial, Helvetica;
+    font-size: 20px;
+    height: 32px;
+    margin: 80px auto;
+    padding: 20px 20px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 120px;
+    
+    
+  }
+  .boton:hover{
+      background: #f8471b;
+  }
+  .boton:active {
+      box-shadow: 2px 2px 2px #777, 0px 0px 35px 0px #8d0303;
+      border-bottom:1px solid #1d0101;
+    text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+      transform: translateY(4px);
+    transition: all 0.1s ease 0s;
+    margin: 80px auto 76px auto;
+  }
+
+/* .boton{
+    border-radius: 15px;
+    background-color: rgb(215, 139, 245);
+    padding: 5px;
+    
+} */
